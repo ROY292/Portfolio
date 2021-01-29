@@ -31,33 +31,37 @@ h1 {
 .pro {
     text-decoration: underline;
 }
-.profileimg{
-    height:250px;
-     width:250px; 
-     border-radius: 100%;
-     margin-bottom: 10px;
+
+.profileimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 10px;
 }
+
 .nav {
     height: 55px;
     width: 100%;
-    background-color:#66bfbf;
+    background-color: #66bfbf;
     opacity: 0.7;
     position: fixed;
     top: 0;
     z-index: 10;
-  }
-  .logo {
+}
+
+.logo {
     width: 52px;
     padding: 1px 4px;
-  }
-  .header-left {
+}
+
+.header-left {
     float: left;
-  }
-  
-  .header-right {
+}
+
+.header-right {
     float: right;
-    margin: 15px ;
-  }
+    
+}
 
 
 .top-cloud {
@@ -101,28 +105,33 @@ h3 {
     color: #11999e;
     font-family: 'Montserrat', sans-serif;
 }
+
 .project-title {
     width: 50%;
     margin: 100px auto;
     text-align: left;
 
 }
-.Git{
+
+.Git {
     margin-left: 0;
 }
+
 .skill-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
 
 }
+
 .Health {
     float: right;
     margin-left: 2rem;
     width: 156px;
     height: 156px;
-   
+
 }
+
 .keylogger {
     float: left;
     margin-right: 2rem;
@@ -130,6 +139,7 @@ h3 {
     height: 156px;
 
 }
+
 .interface {
     float: left;
     margin-right: 2rem;
@@ -202,10 +212,17 @@ span.menu-icon {
     color: white;
     float: right;
     font-size: 25px;
-    padding: 21px 0;
-   
+    padding: 18px 15px;
     display: none;
-  }
- 
-  
-  
+}
+
+.mainmenu li a {
+    display: inline;
+    text-decoration: none;
+    margin-bottom: auto 0;
+
+ }
+ .nav ul{
+     list-style: none;
+     display: inline-flex;
+ }
