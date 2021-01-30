@@ -6,7 +6,7 @@
   }
 
   .mtn {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
   }
 
@@ -39,10 +39,12 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
+  /* .header-right {
+    display: flex;
+  } */
+ .mainmenu{
+   display: none;
+ }
   h3 {
     font-size: 18px;
   }
@@ -73,11 +75,23 @@
     float: none;
     margin: 0;
   }
-
+ .navbut{
+   display: block;
+   float:right;
+ }
   span.menu-icon {
     display: inline-block;
+    cursor: pointer;
   }
 
-
+ .bot-cloud{
+   display: none;
+ }
+ p{
+   font-size: 14px;
+ }
+ .mainmenu.show{
+   display: flex;
+ }
 
 }

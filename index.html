@@ -14,12 +14,13 @@
 </head>
 <header>
   <div class="nav">
-    <div class="header-left">
+    <div class="header-left" >
       <img class="logo" src="images/br.png">
     </div>
-    <span class="fa fa-bars menu-icon"></span>
-    <div class="header-right">    
-      <ul class="mainmenu">
+    <button class="navbut" id="navbut" >
+    <span class="fa fa-bars menu-icon" id="menu-icon"></span></button> 
+    <div class="header-right" >   
+      <ul class="mainmenu" id="mainmenu">
         <li> <a href="#profilenav">About</a></li>
         <li> <a href="#projectnav">Projects</a></li>
         <li> <a href="#skillnav">Skills</a></li>
@@ -110,6 +111,7 @@
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
   </script>
+   <script src="script.js"> </script>
   <!-- this comment is for anyone who is judging my website. I added smoothscroll feature even though it was not taught in progate because I thought
     it will make my website more interactive and I watched a youtube video for this feature. So please dont say as if I didn't make it or something. -->
 
