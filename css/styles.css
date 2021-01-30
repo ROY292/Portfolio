@@ -207,13 +207,24 @@ a:hover {
     font-size: 0.75rem;
     padding: 20px 0;
 }
-
+.navbut{
+    background-color: #66bfbf;
+    border: 0;
+    display: none;
+    height: 15px;
+    padding: 0;
+   
+}
+/* .navbut:focus{
+    outline: none;
+} */
 span.menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 18px 15px;
     display: none;
+    cursor: pointer;
 }
 
 .mainmenu li a {
@@ -222,7 +233,8 @@ span.menu-icon {
     margin-bottom: auto 0;
 
  }
- .nav ul{
+ .mainmenu{
      list-style: none;
-     display: inline-flex;
+     display: flex;
  }
+ 
